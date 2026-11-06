@@ -1,0 +1,15 @@
+# Local database backups
+backups/
+
+# Downloaded third-party images (large; publish separately if desired)
+images/
+
+# SQLite transient files
+*.db-wal
+*.db-shm
+*.db-journal
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
